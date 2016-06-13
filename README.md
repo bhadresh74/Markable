@@ -14,5 +14,14 @@ Technique: Otsu's thresholding method with basic image processing
 Time Complexity: Less than 1 sec per image    
 Accuracy: ~95%
 
+Steps:    
+1.Load the image and read it as a grayscale    
+2.Downsample the image by 60%   
+3.Threshold the image    
+4.Consider forground pixels as human    
+5.Label the image and find regionprops    
+6.Draw bounding box around the interested regionprops    
+
+
 ##### 2. Spring Framework
 To deploy this service, run client.java
