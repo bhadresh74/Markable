@@ -5,7 +5,19 @@
 2. Spring Framework
 
 ##### 1. Human Detector
-To run the humandetector.py, follow this instruction: 
+To run the humandetector, follow this instruction:
+
+1. Open command prompt
+2. Go to the directory where all three files humandetector.py, preprocess.py, boundingbox.py are present.
+2. type command python to start python console
+3. Then follow this commands:    
+    >>> import humandetector as hd    
+    >>> hd.findhumans('path where all the images are stored')    
+        E.g. 'C:/CV_Task Examples/'    
+
+Note:    
+Do not forget to put '/' at the end of your path    
+If access denied error occurs, try to run it again or check access privilages on the image folder
 
 Input Path format must be: 'C:/CV_Task Examples/'    
 Try to run this script as administrator if you have access issues  
